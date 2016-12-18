@@ -9,12 +9,12 @@ body{
   font-size:12px;
   font-family:Arial,Helvetica,sans-serif;
 }
-#container{
+.container{
  width:900px;
  margin:0px auto;
  background-color:#fff;
 }
-#banner{
+.banner{
  width:780px;
  height:300px;
  margin-left:20px;	
@@ -23,22 +23,22 @@ body{
 #img{
   margin-left:50px;
 }
-#globallink{
+.globallink{
   width:900px;
   height:50px;
 	
 }
-#globallink ul{
+.globallink ul{
   list-style:none;	
   margin-left:450px;
 }
-#globallink ul li{
+.globallink ul li{
   text-align:center;
   float:left;
   margin-top:10px;
   margin-left:5px;
 }
-#globallink ul li a{
+.globallink ul li a{
  display:block;
  width:100px;
  height:50px;
@@ -46,16 +46,16 @@ body{
  padding-top:5px;	
  background:url(img/button_1.jpg) no-repeat;
 }
-#globallink a:link,#globallink a:visited{
+.globallink a:link,.globallink a:visited{
 color:#fff;
 text-decoration:none;	
 }
-#globallink a:hover{
+.globallink a:hover{
   color:#fff;
   text-decoration:underline;
   background:url(img/button_2.jpg) no-repeat;	
 }
-#left{
+.left{
  width:200px;
  height:1230px;
  position:relative;
@@ -63,14 +63,15 @@ text-decoration:none;
  background:#f8ddf6;	
  padding-top:30px;
  text-align:left;
+ clear:both;
 }
-#weather{
+.weather{
  width:160px;
  height:160px;
  margin:0px 20px;
  background:url(img/weather.jpg) no-repeat;
 }
-#weather p{
+.weather p{
   position:relative;
   top:15px;
   left:10px;
@@ -79,94 +80,95 @@ text-decoration:none;
   color:#fff;
   font-weight:bold;	
 }
-#intro{
+.intro{
  width:200px;
  height:150px;
  border-top:1px solid #fff;
 }
-#intro ul{
+.intro ul{
  list-style:none;
 }
-#intro ul li{
+.intro ul li{
   width:200px;
   text-align:left;
 }
-#intro li a{
+.intro li a{
   padding:15px;
   display:block;	
   font-size:16px;
   font-weight:bold;	
 }
-#intro li a:link,#intro li a:visited{
+.intro li a:link,.intro li a:visited{
   text-decoration:none;
   color:#a7415b;
 
 }
-#intro li a:hover{
+.intro li a:hover{
   background:#ea5fef;	
 }
-#menu{
+.menu{
  width:200px;
  height:200px;
  border-top:1px solid #fff;
  border-bottom:1px solid #fff;
 }
-#menu ul{
+.menu ul{
  list-style:none;
 }
-#menu ul li{
+.menu ul li{
   width:200px;
   text-align:left;
 }
-#menu li a{
+.menu li a{
   padding:15px;
   display:block;	
   font-size:16px;
   font-weight:bold;	
 }
-#menu li a:link,#menu li a:visited{
+.menu li a:link,.menu li a:visited{
   text-decoration:none;
   color:#a7415b;
 
 }
-#menu li a:hover{
+.menu li a:hover{
   background:#ea5fef;	
 }
-#content{
+
+.content{
   width:700px;
   position:relative;
   float:left;
   background:#f8ddf6;
 }
-#artic1{
+.artic1{
  width:600px;
  height:300px;
  margin:10px 10px 10px 20px;	
  background:#fff;
 }
-#artic{
+.artic{
  width:600px;
  margin:10px 10px 10px 20px;
  background:#fff;	
 }
-#artic1 #left_l{
+.artic1 .left_l{
   width:200px;
   float:left;	
 }
-#artic1 #left_l #info{
+.artic1 .left_l .info{
   margin-left:5px;
   padding:10px 20px 5px 30px;
   border-bottom:1px solid #f4cfc7;	
   font-size:12px;
   font-weight:bold;
 }
-#artic1 h2{
+.artic1 h2{
  padding-left:40px;	
  color:#c836a4;
  font-weight:bold;
 }
 
-#artic1 #right_r{
+.artic1 .right_r{
 	width:250px;
 	float:left;
 	padding:20px 10px 0px 100px;
@@ -175,55 +177,63 @@ text-decoration:none;
 
 
 
-
-#artic #main{
+.artic .main{
   width:570px;
   height:430px;
   padding:15px;	
 }
-#main h3{
+.main h3{
  position:relative;
  left:70px;
  top:30px;
 }
-#main span{
+.main span{
   color:#aaa;	
 }
-#main p{
+.main p{
   padding:5px 5px 5px 60px;	
 }
-#main #show{
-  padding:10px 0px 10px 60px;	
+.main #show11{
+ margin-left:60px;
+ width:200px;
+ height:210px;	
 }
-#main h5{
-  padding:0px 0px 0px 60px;
+.main .show{
+  width:180px;
+  height:190px;
+}
+.main h5{
+  padding:10px 0px 0px 60px;
     color:#aaa;
 }
-#artic ul{
+.artic ul{
   list-style:none;
   width:480px;
   position:relative;
   top:20px;
-  left:-30px;
+  left:0px;
   	
 }
-#artic ul li{
+.artic ul li{
   width:100px;
   text-align:center;
   float:left;
-  margin:10px;	
+  margin:10px;
 }
-#artic li a{
+.artic li a{
   display:block;
   padding:5px ;
   border:1px solid #eee;
 }
-#artic li a:link,#artic li a:visited{
+.artic ul li img{
+  border:none;	
+}
+.artic li a:link,.artic li a:visited{
   text-decoration:none;
   color:#aaa;
 
 }
-#artic li a:hover{
+.artic li a:hover{
   color:#f49f19;
   text-decoration:underline;	
   border:1px solid #888;
@@ -232,13 +242,13 @@ text-decoration:none;
 
 
 
-#footer{
+.footer{
  padding:5px 0px;
  background:#f6c8f8;
  text-align:center;	
  clear:both;
 }
-#footer span{
+.footer span{
   color:#666;	
 }
 #top{
